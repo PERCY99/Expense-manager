@@ -3,11 +3,7 @@ import React, { createContext,useReducer } from "react";
 //initial state
 
 const initialState = {
-    transaction : [
-        { id : 1 , text : 'Flowers' ,amount : -20},
-        { id : 2 , text : 'Salary' ,amount : 300},
-        { id : 3 , text : 'Book' ,amount : -200}
-    ]
+    transaction : [ ]
 }
 
 //create context
